@@ -200,25 +200,6 @@ public class MySQLConnection implements DBConnection {
 
 	@Override
 	public String getFullname(String userId) {
-//		if (conn == null) {
-//			return new String();
-//		}
-//		StringBuilder fullName = new StringBuilder();
-//		try {
-//			String sql = "SELECT * from users WHERE user_id = ? ";
-//			PreparedStatement statement = conn.prepareStatement(sql);
-//			statement.setString(1, userId);
-//			ResultSet rs = statement.executeQuery();
-//
-//			if (rs.next()) {
-//				String firstName = rs.getString("firstname");
-//				String lastName = rs.getString("lastname");
-//				fullName.append(firstName + ' ' + lastName);
-//			}
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
-//		return fullName.toString();
 		if (conn == null) {
 			return null;
 		}
@@ -240,23 +221,6 @@ public class MySQLConnection implements DBConnection {
 
 	@Override
 	public boolean verifyLogin(String userId, String password) {
-//		if (conn == null) {
-//			return false;
-//		}
-//		try {
-//			String sql = "SELECT * from users WHERE user_id = ? ";
-//			PreparedStatement statement = conn.prepareStatement(sql);
-//			statement.setString(1, userId);
-//			ResultSet rs = statement.executeQuery();
-//
-//			if (rs.next()) {
-//				String truePassword = rs.getString("password");
-//				return truePassword.equals(password);
-//			}
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
-//		return false;
 		if (conn == null) {
 			return false;
 		}
