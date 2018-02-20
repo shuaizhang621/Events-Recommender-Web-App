@@ -1,1 +1,3 @@
-# Events-Recommender-Web-App
+# TicketHub
+
+A ticket recommendation web application. 
