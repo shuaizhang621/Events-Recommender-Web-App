@@ -5,7 +5,7 @@
 }
 
 body {
-	background: #434343;
+	background: #232323;/*#434343;*/
 	color: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -21,7 +21,7 @@ ul {
  */
 .top-header {
 	align-items: center;
-	background: #DF574B;
+	background: #000000;
 	box-shadow: 0px 2px 10px #333333;
 	display: flex;
 	height: 60px;
@@ -76,7 +76,7 @@ ul {
 .container>header {
 	align-items: center;
 	background:
-		url('http://prophoto.com.cy/wp-content/galleries/food/food-restaurant-photographer-cyprus-10.jpg')
+		url('https://i.cdn.turner.com/drp/nba/nets/sites/default/files/ticket-central-header.jpg')
 		no-repeat 50% 50%;
 	background-size: 100%;
 	display: flex;
@@ -84,11 +84,10 @@ ul {
 }
 
 .container>header p {
-	border-left: 1px solid #FFFFFF;
-	font-weight: 400;
-	font-size: 2em;
+	font-weight: 800;
+	font-size: 5.5em;
 	line-height: 1em;
-	margin-left: 220px;
+	margin-left: 260px;
 	padding-left: 5px;
 }
 
@@ -100,7 +99,7 @@ ul {
  * login form
  */
 #login-form {
-	color: #624630;
+	color: #FFFFFF;
 	margin: 0px auto;
 	overflow: auto;
 	padding: 40px;
@@ -132,7 +131,7 @@ ul {
 #preregister-btn {
 	cursor: pointer;
 	float: left;
-	padding: 8px 20px;
+	padding: 8px 14px;
 	text-align: right;
     margin-top: 10px;
     border-radius: 10px;
@@ -140,7 +139,7 @@ ul {
 
 #login-error {
 	clear: both;
-	color: #990000;
+	color: #ffa2b8;
 	padding-top: 10px;
 }
 
@@ -148,7 +147,7 @@ ul {
  * Register form
  */
 #register-form {
-	color: #624630;
+	color: #FFFFFF;
 	margin: 0px auto;
 	overflow: auto;
 	padding: 40px;
@@ -175,9 +174,18 @@ ul {
   border-radius: 10px;
 }
 
-#register-form button {
+#register-btn {
 	cursor: pointer;
 	float: right;
+	padding: 8px 12px;
+	text-align: right;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#back-btn {
+	cursor: pointer;
+	float: left;
 	padding: 8px 20px;
 	text-align: right;
     margin-top: 10px;
@@ -186,7 +194,13 @@ ul {
 
 #register-error {
 	clear: both;
-	color: #990000;
+	color: #ffa2b8;
+	padding-top: 10px;
+}
+
+#password-error {
+	clear: both;
+	color: #ffa2b8;
 	padding-top: 10px;
 }
 
@@ -194,7 +208,7 @@ ul {
  * main section
  */
 .main-section {
-	background: #F3BB43;
+	background: #606060;   /*#F3BB43;*/
 }
 
 /**
@@ -206,7 +220,7 @@ ul {
 }
 
 .nav-icon {
-	color: #624630;
+	color: #FFFFFF;
 	padding: 20px;
 	text-align: center;
 }
@@ -230,7 +244,7 @@ ul {
 }
 
 .main-nav-btn.active {
-	background: #F2EBD9;
+	background: #fbf4e4;
 	color: #624630;
 }
 
@@ -242,7 +256,7 @@ ul {
  * item list
  */
 #item-list {
-	background: #F2EBD9;
+	background: #fbf4e4;
 	color: #624630;
 	list-style: none;
 	margin-left: 180px;
@@ -327,7 +341,7 @@ ul {
  * footer section
  */
 footer {
-	background: #434343;
+	background: #232323;
 	font-size: 0.8em;
 	height: 200px;
 	position: relative;
